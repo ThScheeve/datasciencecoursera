@@ -37,6 +37,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ##
 ## Args:
 ##   x: Special "matrix" object whose inverse is to be calculated.
+##   ...: Further arguments passed to or from other methods.
 ##
 ## Returns:
 ##   The matrix that is the inverse of x.
