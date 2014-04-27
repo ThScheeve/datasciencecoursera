@@ -60,4 +60,4 @@ for (subject in ids) {
 tidy.data.set <- cbind(id.and.activity, means)
 names(tidy.data.set) <- c("subjectID", "activity", sort(c(mean.columns, std.columns)))
 
-write.table(tidy.data.set, "./tidy.txt", sep="\t")
+write.table(tidy.data.set, "./tidy.txt", sep = "\t")
